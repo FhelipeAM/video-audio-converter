@@ -5,13 +5,13 @@ A simple Node.js server that converts uploaded video files to MP3 audio. It prov
 
 Install [ffmpeg](https://ffmpeg.org/download.html), [Node.js](https://nodejs.org/en/download), [npm](https://www.npmjs.com/)
 
-Open the server folder in the terminal using 'cd server'
+Open the server folder in the terminal using ```cd server```
 
-Execute 'npm install' to get all dependencies 
+Execute ```npm install``` to get all dependencies 
 
-Run 'npm start' to initialize the server
+Run ```npm start``` to initialize the server
 
 ## Note:
 
 I've included a page in '/ui/' to show how a file should be uploaded via web. But you can also use curl to upload files.
-'curl -X POST -F "file=@**file_path**" http://**server_ip**:**port** -o **filename**.mp3'
+```curl -X POST -F "file=@**file_path**" http://**server_ip**:**port** -o **filename**.mp3```
