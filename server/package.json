@@ -1,0 +1,15 @@
+{
+  "name": "converter-server",
+  "version": "1.0.0",
+  "description": "a server to convert files",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
